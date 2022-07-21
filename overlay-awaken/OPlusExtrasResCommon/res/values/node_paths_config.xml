@@ -41,4 +41,7 @@
     <!-- Vibration strength sysfs node path -->
     <string name="node_vibrator_strength_preference" translatable="false">/sys/devices/platform/soc/a8c000.i2c/i2c-6/6-005a/leds/vibrator/level</string>
 
+    <!-- High touch polling rate procfs node path -->
+    <string name="node_high_touch_polling_rate_switch" translatable="false">/proc/touchpanel/game_switch_enable</string>
+
 </resources>

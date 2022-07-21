@@ -44,4 +44,7 @@
     <!-- Whether device supports Vibration Strength -->
     <bool name="config_deviceSupportsVibStrength">true</bool>
 
+    <!-- Whether device supports High Touch Polling Rate -->
+    <bool name="config_deviceSupportsHightTouchPollingRate">true</bool>   
+
 </resources>
