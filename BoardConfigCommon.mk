@@ -125,6 +125,9 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
 TARGET_COPY_OUT_VENDOR := vendor
 
+# Disable sparse for ext images
+TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
+
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
